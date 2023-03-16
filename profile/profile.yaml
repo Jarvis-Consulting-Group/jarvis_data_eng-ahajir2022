@@ -307,24 +307,8 @@ education:
     department: "marketing &  Sales"
     awards_achievements:
  
-
-#Optional section
-others:
-    #category
-  - title: "Certificates"
-    #list of items
-    bullets:
-      - "Udacity Machine Learning (2019)"
-  - title: "Awards"
-    bullets:
-      - "Winner"
-  - title: "Activities/Hobbies"
-    bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
 	  
-	  #Optional section
+  #Optional section
 others:
     #category
   - title: "Awards"
@@ -334,28 +318,11 @@ others:
   - title: "Awards"
     bullets:
       - " Best Service Solution partner reviewer in North Africa region Huawei ME&NA (April 2010) "
- - title: "Awards"
-    bullets:
-      - " Best service account manager north Africa Huawei MENA (January 2013) "
- - title: "Awards"
-    bullets:
-      - "Service sales amount growth Best service partner review Best event organizer and customer relationship development"      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
-	  
-	  #Optional section
-others:
-    #category
-  - title: "Awards"
-    #list of items
-    bullets:
-      - "Customer Organization breakdown Analysis report and Telecom country report   - Huawei ME&NA (June 2006) "
   - title: "Awards"
     bullets:
-      - " Best Service Solution partner reviewer in North Africa region Huawei ME&NA (April 2010) "
- - title: "Awards"
-    bullets:
       - " Best service account manager north Africa Huawei MENA (January 2013) "
- - title: "Awards"
+  - title: "Awards"
     bullets:
       - "Service sales amount growth Best service partner review Best event organizer and customer relationship development"
+	  
+
