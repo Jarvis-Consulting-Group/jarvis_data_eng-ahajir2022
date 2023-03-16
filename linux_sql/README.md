@@ -81,6 +81,18 @@ This table is called host_usage and it represents the usage data for a host at a
 | disk_available| INT4     | NOT NULL                     |
 
 The host_info table:
-Column        | Data Type | Constraints                       |
-| ------------- | ---------| --------------------------------- |
-| id             | SERIAL   | NOT NULL, primary key
+
+| Column | Data Type | Constraints |
+|--------|----------|-------------|
+| id | SERIAL | NOT NULL, primary key |
+| hostname | VARCHAR | NOT NULL, unique |
+| cpu_number | INT2 | NOT NULL |
+| cpu_architecture | VARCHAR | NOT NULL |
+| cpu_model | VARCHAR | NOT NULL |
+| cpu_mhz | FLOAT8 | NOT NULL |
+| l2_cache | INT4 | NOT NULL |
+| timestamp | TIMESTAMP | NULL |
+| total_mem | INT4 | NULL |
+
+CONSTRAINT host_info_pk PRIMARY KEY (id)		
+CONSTRAINT host_info_un UNIQUE (hostname)	
