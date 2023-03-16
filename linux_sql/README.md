@@ -40,7 +40,8 @@ To quickly get started with the project, follow the steps below:
 ## Implementation
 
 ### Architecture
-Diagram to include
+
+![Net diagramIMG](https://user-images.githubusercontent.com/100779532/225756237-6fbe25ca-d332-480a-9fa5-5800bc8e496f.png)
 
 The architecture of the project consists of three Linux hosts, a PostgreSQL database instance, and agents. Each Linux host runs an agent that collects hardware usage data and sends it to the database instance.
 
