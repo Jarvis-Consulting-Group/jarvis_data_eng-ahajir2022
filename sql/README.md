@@ -1,4 +1,3 @@
-
 # PSQL Database management:
 
 - Create and manipulate data of a PSQL database.
@@ -7,7 +6,33 @@ As a first step of conception, we create ERD (Entity Relationship Diagram) Compo
 
 -- Members -- Bookings -- Facilities
 
- --- Insert here link to png ERD
+![Untitled](https://user-images.githubusercontent.com/100779532/226626812-ee0f2fdc-d65d-4455-9205-d654b0227e4e.png)
+
+
+## Problem Statement / User Stories:
+As a part of a learning program,  my work is to create a database and  includes the creation of three tables: members, facilities, and bookings.
+The members table contains information about the members of a club, such as their memid (member ID), surname, firstname, address, zipcode, telephone, recommendedby, and joindate. 
+The memid field is the primary key of this table, and the recommendedby field is a foreign key referencing another memid in the same table. 
+This table created to store information about the club's members and their relationships with one another.
+The facilities table contains information about the facilities that the club offers, such as their facid (facility ID), name, membercost, guestcost, initialoutlay, and monthlymaintenance. 
+The facid field is the primary key of this table. This table was likely created to store information about the club's facilities and their associated costs.
+The bookings table contains information about bookings made by members for specific facilities, such as the bookid (booking ID), facid (facility ID), memid (member ID), starttime, and slots. 
+The bookid field is the primary key of this table, and the facid and memid fields are foreign keys referencing the facid and memid fields in the facilities and members tables, respectively. 
+This table created to track bookings made by members for the club's facilities.
+Overall, these tables provide a framework for storing and organizing data related to a club's members, facilities, and bookings. 
+The foreign key relationships between the tables allow for more complex queries and analysis of the data.
+
+## Proposed Work:
+Based on the tables that were created , we are building a database to manage a club's membership and facility booking system. 
+The database includes three tables: members, facilities, and bookings.
+The members table stores information about the club's members, including their personal details, membership status, and referral information. 
+The facilities table contains information about the club's facilities, including their names, associated costs, and maintenance requirements. 
+The bookings table tracks bookings made by members for specific facilities, including the start time and number of slots booked.
+By organizing this information in a database, we can easily manage and analyze data related to the club's membership and facility usage. 
+For example, we can track the number of bookings made for each facility, identify the most popular facilities, and monitor membership trends over time. 
+We can also use this information to optimize facility usage and improve member engagement.
+In summary, by building this database, we aim to create a more efficient and effective system for managing the club's membership and facility booking processes, ultimately improving the overall experience for club members.
+
 
 
  -- First steps to verify before proceeding to the creation of entities
