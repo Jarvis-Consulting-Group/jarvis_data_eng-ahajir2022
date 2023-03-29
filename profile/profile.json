@@ -42,11 +42,6 @@
       "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
       "git_url": "https://github.com/jarviscanada/jarvis_profile_builder",
       "name": "Web app for resturant"
-    },
-    {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
-      "git_url": null,
-      "name": "Machine Learning"
     }
   ],
   "jarvis_projects": [
@@ -54,20 +49,6 @@
       "description": "The project aims to collect hardware usage data from multiple Linux hosts, store the data into a PostgreSQL database, and provide a way to query the data. This project can be used by system administrators to monitor and analyze the hardware usage of different hosts in a network.",
       "git_url": "/linux_sql",
       "name": "Linux Cluster Resource Monitoring App"
-    },
-    {
-      "description": [
-        "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
-    },
-    {
-      "description": "",
-      "git_url": "/springboot",
-      "name": "Spring RESTful Microservices App"
     },
     {
       "description": "",
@@ -132,7 +113,7 @@
     },
     {
       "company": "Midwex",
-      "description": "Requirement for the  Certificate BigData in Finance Program  obtention, Different missions as Business analyst in different sectors, Analyze business context and customer requirements to enhance business processes, Evaluate actual business processes and formulate new business proposals, Coordination with other team members in the organization to improve workflows.",
+      "description": "Business development and Bidding processes in North-West Africa region, Participate in the bidding process and documents review and preparation, Participate in the preparation of commercial proposals.",
       "duration": "April 2016 to March 2020",
       "title": "Bid Management \u0026 Business Development"
     },
@@ -168,7 +149,7 @@
       "Spark Scala RDD Spark SQL",
       "Data integration with SQL server Integration services SSIS",
       "Hadoop",
-      "fermentum"
+      "GCP"
     ],
     "proficient": [
       "Analytical skills",
