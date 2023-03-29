@@ -8,7 +8,7 @@ A motivated and detail-oriented individual who is passionate about using technol
 
 **Competent:** Power Bi Dashboards, Linux/Bash, RDBMS/SQL, Agile/Scrum, Git
 
-**Familiar:** Azure Data Factory  Azure Databricks, Spark Scala RDD Spark SQL, Data integration with SQL server Integration services SSIS, Hadoop, fermentum
+**Familiar:** Azure Data Factory  Azure Databricks, Spark Scala RDD Spark SQL, Data integration with SQL server Integration services SSIS, Hadoop, GCP
 
 ## Jarvis Projects
 
@@ -17,11 +17,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Linux Cluster Resource Monitoring App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ahajir2022/tree/master/linux_sql)]: The project aims to collect hardware usage data from multiple Linux hosts, store the data into a PostgreSQL database, and provide a way to query the data. This project can be used by system administrators to monitor and analyze the hardware usage of different hosts in a network.
 
-**Core Java Apps** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ahajir2022/tree/master/core_java)]:
-      
-  - Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
-  - Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.
+**PSQL Database management:** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ahajir2022/tree/mastersql)]: As a part of a learning program, my work is to create a database and includes the creation of three tables: members, facilities, and bookings. The members table contains information about the members of a club, such as their memid (member ID), surname, firstname, address, zipcode, telephone, recommendedby, and joindate. The memid field is the primary key of this table, and the recommendedby field is a foreign key referencing another memid in the same table. This table was likely created to store information about the club's members and their relationships with one another. The facilities table contains information about the facilities that the club offers, such as their facid (facility ID), name, membercost, guestcost, initialoutlay, and monthlymaintenance. The facid field is the primary key of this table. This table was likely created to store information about the club's facilities and their associated costs. The bookings table contains information about bookings made by members for specific facilities, such as the bookid (booking ID), facid (facility ID), memid (member ID), starttime, and slots. The bookid field is the primary key of this table, and the facid and memid fields are foreign keys referencing the facid and memid fields in the facilities and members tables, respectively. This table was likely created to track bookings made by members for the club s facilities. Overall, these tables provide a framework for storing and organizing data related to a club s members, facilities, and bookings. The foreign key relationships between the tables allow for more complex queries and analysis of the data.
 
 **Spring RESTful Microservices App** [[GitHub](https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ahajir2022/tree/master/springboot)]: Not Started
 
@@ -46,7 +42,7 @@ Project source code: [https://github.com/Jarvis-Consulting-Group/jarvis_data_eng
 
 **Business Analyst (Intern) , Gestion Bousquet (November 2022 to January 2023)**: Requirement for the  Certificate BigData in Finance Program  obtention, Different missions as Business analyst in different sectors, Analyze business context and customer requirements to enhance business processes, Evaluate actual business processes and formulate new business proposals, Coordination with other team members in the organization to improve workflows.
 
-**Bid Management & Business Development, Midwex (April 2016 to March 2020)**: Requirement for the  Certificate BigData in Finance Program  obtention, Different missions as Business analyst in different sectors, Analyze business context and customer requirements to enhance business processes, Evaluate actual business processes and formulate new business proposals, Coordination with other team members in the organization to improve workflows.
+**Bid Management & Business Development, Midwex (April 2016 to March 2020)**: Business development and Bidding processes in North-West Africa region, Participate in the bidding process and documents review and preparation, Participate in the preparation of commercial proposals.
 
 **Business Analyst, HMA International INC  (Mai 2014 to march 2016 )**: Explore international market for sourcing opportunities, Prepare data and presentation to clients on products availability and prices.
 
