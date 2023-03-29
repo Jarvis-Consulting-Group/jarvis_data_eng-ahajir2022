@@ -40,12 +40,12 @@ skills:
 # List of Jarvis projects
 jarvis_projects:
   - name: "Linux Cluster Resource Monitoring App"
-    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ahajir2022/tree/develop/linux_sql"
+    git_url: "/linux_sql"
     # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
     # Please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
     description: The project aims to collect hardware usage data from multiple Linux hosts, store the data into a PostgreSQL database, and provide a way to query the data. This project can be used by system administrators to monitor and analyze the hardware usage of different hosts in a network.
   - name: "PSQL Database management:"
-    git_url: "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ahajir2022/tree/develop/sql"
+    git_url: "/sql"
     description: "The project aims t create a database which will include three tables: members, facilities, and bookings. The members table will store information about each member, such as their ID, name, address, and membership start date. The facilities table will store information about the club's facilities, such as their ID, name, and cost. The bookings table will store information about bookings made by members for specific facilities. By using this database, the club will be able to manage its members and facilities more easily and make more informed decisions based on the data collected. This will help improve the overall operations of the club and provide a better experience for its members."
   - name: "Spring RESTful Microservices App"
     git_url: "/springboot"
