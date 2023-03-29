@@ -35,7 +35,7 @@ skills:
     - Spark Scala RDD Spark SQL
     - Data integration with SQL server Integration services SSIS
     - Hadoop
-    - fermentum
+    - GCP
 
 # List of Jarvis projects
 jarvis_projects:
@@ -44,21 +44,6 @@ jarvis_projects:
     # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
     # Please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
     description: The project aims to collect hardware usage data from multiple Linux hosts, store the data into a PostgreSQL database, and provide a way to query the data. This project can be used by system administrators to monitor and analyze the hardware usage of different hosts in a network.
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      #Keywords: Java 8, REST API, OAuth, Design patterns (e.g. DAO, MVC), JUnit, Mockito, Docker
-      - "Twitter CRUD App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      # Keywords: Java 8, JDBC, RDBMS, SQL, CRUD,DAO
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      # Keywords: Java 8, Lambda, Stream API, IntelliJ
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  # Please remove not started projects below so that they don't show up in your profile for now.
-  # You will need to add a project back to your profile upon completion
-  - name: "Spring RESTful Microservices App"
-    git_url: "/springboot"
-    #Keywords: Java8, Spring Boot, REST API, Swagger, Postman, Microservice, Docker, JDBC/JDBCTemplate/DataSource, RDBMS/SQL, Junit, Mockito, etc.
-    description: ""
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
     description: ""
@@ -81,9 +66,6 @@ highlighted_projects:
     #URL is optional
     git_url: "https://github.com/jarviscanada/jarvis_profile_builder"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Machine Learning"
-    git_url:
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
 #List of professional experience
@@ -161,5 +143,4 @@ others:
       - " Best service account manager north Africa Huawei MENA (January 2013) "
   - title: "Awards"
     bullets:
-      - "Service sales amount growth Best service partner review Best event organizer and customer relationship development" 
-
+      - "Service sales amount growth Best service partner review Best event organizer and customer relationship development"
