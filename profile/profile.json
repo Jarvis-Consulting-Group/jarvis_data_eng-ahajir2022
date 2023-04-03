@@ -1,25 +1,42 @@
 {
   "education": [
     {
-      "awards_achievements": [
-        "Scholarship",
-        "Dean's List (2015, 2016): Ut enim ad minim veniam",
-        "GPA: 3.8/4.0"
-      ],
-      "degree": "Bachelor of Applied Sciences",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2012-2016",
-      "school_name": "XYZ university"
+      "awards_achievements": null,
+      "degree": "Certificate in Bigdata in finance",
+      "department": "Technology",
+      "duration": "2022",
+      "school_name": "Collège Rosemont  Montréal "
     },
     {
       "awards_achievements": null,
-      "degree": "Master of Engineering",
-      "department": "Electrical and Computer Engineering",
-      "duration": "2016-2018",
-      "school_name": "XYZ university"
+      "degree": "Certificate in Professional accounting ",
+      "department": "Program for CPA certification",
+      "duration": "2021-present",
+      "school_name": "HEC-Montréal"
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Master in Business Administration ",
+      "department": "Entrepreneurship and development of SME",
+      "duration": "2004-2005",
+      "school_name": "Université Paul Verlaine  France "
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Master in Business Administration ",
+      "department": "Information Technology",
+      "duration": "2003-2004",
+      "school_name": "University of Savoie -  France "
+    },
+    {
+      "awards_achievements": null,
+      "degree": "Bachelor in Business Administration",
+      "department": "marketing \u0026  Sales",
+      "duration": "1995-1999",
+      "school_name": "UNIVERSIAPOLIS - ISIAM AGADIR"
     }
   ],
-  "github_repo_root_url": "https://github.com/jarviscanada/jarvis_data_eng_demo",
+  "github_repo_root_url": "https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ahajir2022",
   "highlighted_projects": [
     {
       "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
@@ -34,23 +51,19 @@
   ],
   "jarvis_projects": [
     {
-      "description": "Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.",
+      "description": "The project aims to collect hardware usage data from multiple Linux hosts, store the data into a PostgreSQL database, and provide a way to query the data. This project can be used by system administrators to monitor and analyze the hardware usage of different hosts in a network.",
       "git_url": "/linux_sql",
-      "name": "Cluster Monitor"
+      "name": "Linux Cluster Resource Monitoring App"
     },
     {
-      "description": [
-        "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam.",
-        "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      ],
-      "git_url": "/core_java",
-      "name": "Core Java Apps"
+      "description": "The project aims t create a database which will include three tables: members, facilities, and bookings. The members table will store information about each member, such as their ID, name, address, and membership start date. The facilities table will store information about the club's facilities, such as their ID, name, and cost. The bookings table will store information about bookings made by members for specific facilities. By using this database, the club will be able to manage its members and facilities more easily and make more informed decisions based on the data collected. This will help improve the overall operations of the club and provide a better experience for its members.",
+      "git_url": "/sql",
+      "name": "PSQL Database management:"
     },
     {
       "description": "",
       "git_url": "/springboot",
-      "name": "Springboot App"
+      "name": "Spring RESTful Microservices App"
     },
     {
       "description": "",
@@ -77,61 +90,89 @@
   "others": [
     {
       "bullets": [
-        "Udacity Machine Learning (2019)"
-      ],
-      "title": "Certificates"
-    },
-    {
-      "bullets": [
-        "Winner"
+        "Customer Organization breakdown Analysis report and Telecom country report   - Huawei ME\u0026NA (June 2006) "
       ],
       "title": "Awards"
     },
     {
       "bullets": [
-        "Basketball player",
-        "Competitive gaming",
-        "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+        " Best Service Solution partner reviewer in North Africa region Huawei ME\u0026NA (April 2010) "
       ],
-      "title": "Activities/Hobbies"
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        " Best service account manager north Africa Huawei MENA (January 2013) "
+      ],
+      "title": "Awards"
+    },
+    {
+      "bullets": [
+        "Service sales amount growth Best service partner review Best event organizer and customer relationship development"
+      ],
+      "title": "Awards"
     }
   ],
   "professional_experience": [
     {
       "company": "Jarvis",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2020-present",
-      "title": "Software Developer"
+      "description": "Responsible for translating business requirements into technical specifications and vice-versa, support all stakeholders in the SDLC process , Work with key stakeholders within all business functions to align technology solutions with business strategies,  Support product requirements gathering,  Work with multiple business stakeholders and implementation partners to create stories, populate and manage backlog.",
+      "duration": "2023-present",
+      "title": "Business System Analyst"
     },
     {
-      "company": "XYZ Company",
-      "description": "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis.",
-      "duration": "2019",
-      "title": "Tutor"
+      "company": "Gestion Bousquet",
+      "description": "Requirement for the  Certificate BigData in Finance Program  obtention, Different missions as Business analyst in different sectors, Analyze business context and customer requirements to enhance business processes, Evaluate actual business processes and formulate new business proposals, Coordination with other team members in the organization to improve workflows.",
+      "duration": "November 2022 to January 2023",
+      "title": "Business Analyst (Intern) "
+    },
+    {
+      "company": "Midwex",
+      "description": "Business development and Bidding processes in North-West Africa region, Participate in the bidding process and documents review and preparation, Participate in the preparation of commercial proposals.",
+      "duration": "April 2016 to March 2020",
+      "title": "Bid Management \u0026 Business Development"
+    },
+    {
+      "company": "HMA International INC ",
+      "description": "Explore international market for sourcing opportunities, Prepare data and presentation to clients on products availability and prices.",
+      "duration": "Mai 2014 to march 2016 ",
+      "title": "Business Analyst"
+    },
+    {
+      "company": "Huawei Technologies ",
+      "description": "Analyze customers need and explore business opportunities, Analyze network performance data and present analysis reports, Extract and analyse the Quality of service (QoS) and Key performance indicators of the customer network, Prepare and present network optimization solutions proposals, Conduct regular meetings with customers to analyze issues related with the service to match customers requirement, Cost analysis and contract risk mitigation follow up, Prepare and submit the service proposal, service quotation, and service contract, Respond to contract and general statement (SoC, responsibility matrix, RFP, RFI, RFQ), Prepare and conduct workshops, trainings, knowledge transfer sessions for customer.",
+      "duration": "May 2005  September 2013 ",
+      "title": "Service account manager"
+    },
+    {
+      "company": "Parametric Technology Corporation (PTC) ",
+      "description": "Providing technical support of PTCs products: Pro/ENGINEER,  Pro/MECHANICA, Pro/INTRALINK, to European customers in English, Italian and French, Helping customers solve technical issues with our widgets, Answering questions from customers and prospective customers about the features and capabilities of our software, Developing customer-facing documentation for our website on an as-needed basis, Communicating customer needs and wishes to our development and engineering staff, Provide troubleshooting and technical support via phone, web based tools and email, Advise customers regarding the product's proper use and address specific user issues. Participation in providing training to new hires as required ",
+      "duration": "November 2003  May 2005 ",
+      "title": "Customer Support Engineer "
     }
   ],
   "skills": {
     "competent": [
-      "Donec",
-      "fermentum",
-      "Donec",
-      "fermentum",
-      "Donec"
-    ],
-    "familiar": [
-      "Donec",
-      "fermentum",
-      "fermentum",
-      "fermentum",
-      "fermentum"
-    ],
-    "proficient": [
-      "Java",
+      "Power Bi Dashboards",
       "Linux/Bash",
       "RDBMS/SQL",
       "Agile/Scrum",
       "Git"
+    ],
+    "familiar": [
+      "Azure Data Factory  Azure Databricks",
+      "Spark Scala RDD Spark SQL",
+      "Data integration with SQL server Integration services SSIS",
+      "Hadoop",
+      "GCP"
+    ],
+    "proficient": [
+      "Analytical skills",
+      "Communication skills",
+      "Business acumen",
+      "Problem-solving skills",
+      "Project management skills  Interpersonal skills"
     ]
   },
-  "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit."
+  "summary": "A motivated and detail-oriented individual who is passionate about using technology to optimize business processes and deliver value to stakeholders.As a business analyst, I possess a unique combination of technical and business skills that enable me to bridge the gap between technical teams and business stakeholders. I have a Masters degree in information systems management and a Masters degree in development of Small and middle enterprises and have completed various training programs in data  analysis, Accounting and finance, project management, and software development methodologies.I have a solid understanding of business processes, systems, and data, which allows me to gather requirements from stakeholders and translate them into technical specifications for developers. I possess strong analytical and problem-solving skills, which help me to identify areas for improvement and recommend solutions that are practical, feasible, and aligned with business objectives.In addition, I have excellent communication skills, which enable me to effectively communicate with both technical and non-technical stakeholders. I have experience in managing projects, developing project plans, and ensuring successful delivery of solutions on time and within budget. I am a team player and have the ability to work collaboratively with cross-functional teams to achieve project goals."
 }

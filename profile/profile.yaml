@@ -1,52 +1,55 @@
 # Preferred name (Characters only)
 name: "Aziz HAJIR"
 # Your GitHub repo root URL
-github_repo_root_url: https://github.com/jarviscanada/jarvis_data_eng_demo
+github_repo_root_url: https://github.com/Jarvis-Consulting-Group/jarvis_data_eng-ahajir2022
 
-# Introduce yourself, your academic and professional background.
-# What excites you about the software industry and your passion. At least 80 words
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed venenatis a orci ac malesuada. Vivamus ligula elit, viverra eu ante porttitor, blandit convallis augue. Aliquam justo justo, mollis at lacus eu, rutrum finibus est. Vestibulum venenatis purus id accumsan pretium. In efficitur magna nec enim laoreet tincidunt. Ut libero metus, scelerisque nec eros vitae, sagittis pellentesque enim. Donec dictum felis volutpat, vehicula magna eu, imperdiet elit. Phasellus ut velit a massa efficitur faucibus. Sed volutpat, lacus sed sagittis luctus, elit.
+# Introduce yourself (80-120 words)
+# Suggestions: you should 
+# 1) describe your academic and work experience (please focus on transferable/job related tech and soft skills only)
+# 2) explain your passion for the role you are looking for (e.g. developer, BSA, QA, tech support, etc.)
+# 3) mention what kind of role you are looking for
+# 4) briefly talk about your qualifications (soft and tech) to justify why the hiring manager should hire your 
+summary: A motivated and detail-oriented individual who is passionate about using technology to optimize business processes and deliver value to stakeholders.As a business analyst, I possess a unique combination of technical and business skills that enable me to bridge the gap between technical teams and business stakeholders. I have a Masters degree in information systems management and a Masters degree in development of Small and middle enterprises and have completed various training programs in data  analysis, Accounting and finance, project management, and software development methodologies.I have a solid understanding of business processes, systems, and data, which allows me to gather requirements from stakeholders and translate them into technical specifications for developers. I possess strong analytical and problem-solving skills, which help me to identify areas for improvement and recommend solutions that are practical, feasible, and aligned with business objectives.In addition, I have excellent communication skills, which enable me to effectively communicate with both technical and non-technical stakeholders. I have experience in managing projects, developing project plans, and ensuring successful delivery of solutions on time and within budget. I am a team player and have the ability to work collaboratively with cross-functional teams to achieve project goals.
 
 # Group your skills by level.
 # Your skills can be anything software related (e.g. language, frameworks, methodologies, software, etc.).
+# DO NOT mention skills that you don't want to work on in the future (e.g. MS office)
 skills:
   # At least 5 skills
   proficient:
-    - Java
+    - Analytical skills
+    - Communication skills
+    - Business acumen
+    - Problem-solving skills
+    - Project management skills  Interpersonal skills
+  # At least 5 skills
+  competent:
+    - Power Bi Dashboards
     - Linux/Bash
     - RDBMS/SQL
     - Agile/Scrum
     - Git
   # At least 5 skills
-  competent:
-    - Donec
-    - fermentum
-    - Donec
-    - fermentum
-    - Donec
-  # At least 5 skills
   familiar:
-    - Donec
-    - fermentum
-    - fermentum
-    - fermentum
-    - fermentum
+    - Azure Data Factory  Azure Databricks
+    - Spark Scala RDD Spark SQL
+    - Data integration with SQL server Integration services SSIS
+    - Hadoop
+    - GCP
 
 # List of Jarvis projects
 jarvis_projects:
-  - name: "Cluster Monitor"
+  - name: "Linux Cluster Resource Monitoring App"
     git_url: "/linux_sql"
-    # The project description allows hiring managers to understand your project and technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
-    # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
-  - name: "Core Java Apps"
-    git_url: "/core_java"
-    description:
-      - "Twitter App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "JDBC App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-      - "Grep App: Curabitur laoreet tristique leo, eget suscipit nisi. Sed in sodales ex. Maecenas vitae tincidunt dui, et eleifend quam."
-  - name: "Springboot App"
+    # Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
+    # Please include the following keywords: CentOS, Bash/Shell, docker, RDBMS/SQL/Postgresql, crontab, data analytics
+    description: The project aims to collect hardware usage data from multiple Linux hosts, store the data into a PostgreSQL database, and provide a way to query the data. This project can be used by system administrators to monitor and analyze the hardware usage of different hosts in a network.
+  - name: "PSQL Database management:"
+    git_url: "/sql"
+    description: "The project aims t create a database which will include three tables: members, facilities, and bookings. The members table will store information about each member, such as their ID, name, address, and membership start date. The facilities table will store information about the club's facilities, such as their ID, name, and cost. The bookings table will store information about bookings made by members for specific facilities. By using this database, the club will be able to manage its members and facilities more easily and make more informed decisions based on the data collected. This will help improve the overall operations of the club and provide a better experience for its members."
+  - name: "Spring RESTful Microservices App"
     git_url: "/springboot"
+    #Keywords: Java8, Spring Boot, REST API, Swagger, Postman, Microservice, Docker, JDBC/JDBCTemplate/DataSource, RDBMS/SQL, Junit, Mockito, etc.
     description: ""
   - name: "Python Data Analytics"
     git_url: "/python_data_anlytics"
@@ -63,6 +66,7 @@ jarvis_projects:
 
 # List of personal or academic projects
 # Feel free to add more projects
+# Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
 highlighted_projects:
     #project name
   - name: "Web app for resturant"
@@ -75,49 +79,79 @@ highlighted_projects:
     description: Suspendisse a tincidunt odio. Suspendisse posuere luctus aliquet. Quisque magna tellus, tempor vitae arcu sed, volutpat scelerisque lacus. Aliquam varius pulvinar dapibus. Ut a tincidunt sem. Aenean sollicitudin fringilla erat ut imperdiet. Phasellus fermentum, enim vitae laoreet elementum, eros nisl hendrerit lorem.
 
 #List of professional experience
-#The job description allows hiring managers to understand your job and the technologies you used(e.g. programming languages, libraries, algorithms, hardware, tools, etc.).
+# Please read the project description guideline carefully. Make sure you follow the simplified SDLC pattern. (t.ly/NlXQ)
 #The description must be more than 25 words. If your experience is not software related, please focus on soft skills and achievements (e.g. team collaboration, problem-solving, improvements, communication).
 professional_experience:
   #Write your Jarvis role as a professional experience rather than training.
-  - title: "Software Developer"
+  - title: "Business System Analyst"
     company: "Jarvis"
-    duration: "2020-present"
+    duration: "2023-present"
     # The project description must start with an action verb (https://bit.ly/3guO98u)
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
-  - title: "Tutor"
-    company: "XYZ Company"
-    duration: "2019"
-    description: "Donec mattis sed justo et sagittis. Vestibulum lacinia nulla ipsum. Curabitur imperdiet nibh vitae leo lacinia laoreet. Nullam accumsan, lectus ut maximus ultricies, augue justo egestas mi, vel bibendum felis."
+    description: "Responsible for translating business requirements into technical specifications and vice-versa, support all stakeholders in the SDLC process , Work with key stakeholders within all business functions to align technology solutions with business strategies,  Support product requirements gathering,  Work with multiple business stakeholders and implementation partners to create stories, populate and manage backlog."
+  - title: "Business Analyst (Intern) "
+    company: "Gestion Bousquet"
+    duration: "November 2022 to January 2023"
+    description: "Requirement for the  Certificate BigData in Finance Program  obtention, Different missions as Business analyst in different sectors, Analyze business context and customer requirements to enhance business processes, Evaluate actual business processes and formulate new business proposals, Coordination with other team members in the organization to improve workflows."
+  - title: "Bid Management & Business Development"
+    company: "Midwex"
+    duration: "April 2016 to March 2020"
+    description: "Business development and Bidding processes in North-West Africa region, Participate in the bidding process and documents review and preparation, Participate in the preparation of commercial proposals."
+  - title: "Business Analyst"
+    company: "HMA International INC "
+    duration: "Mai 2014 to march 2016 "
+    description: "Explore international market for sourcing opportunities, Prepare data and presentation to clients on products availability and prices."
+  - title: "Service account manager"
+    company: "Huawei Technologies "
+    duration: "May 2005  September 2013 "
+    description: "Analyze customers need and explore business opportunities, Analyze network performance data and present analysis reports, Extract and analyse the Quality of service (QoS) and Key performance indicators of the customer network, Prepare and present network optimization solutions proposals, Conduct regular meetings with customers to analyze issues related with the service to match customers requirement, Cost analysis and contract risk mitigation follow up, Prepare and submit the service proposal, service quotation, and service contract, Respond to contract and general statement (SoC, responsibility matrix, RFP, RFI, RFQ), Prepare and conduct workshops, trainings, knowledge transfer sessions for customer."
+  - title: "Customer Support Engineer "
+    company: "Parametric Technology Corporation (PTC) "
+    duration: "November 2003  May 2005 "
+    description: "Providing technical support of PTCs products: Pro/ENGINEER,  Pro/MECHANICA, Pro/INTRALINK, to European customers in English, Italian and French, Helping customers solve technical issues with our widgets, Answering questions from customers and prospective customers about the features and capabilities of our software, Developing customer-facing documentation for our website on an as-needed basis, Communicating customer needs and wishes to our development and engineering staff, Provide troubleshooting and technical support via phone, web based tools and email, Advise customers regarding the product's proper use and address specific user issues. Participation in providing training to new hires as required "
 
 #List of edcuation
 education: 
-  - school_name: "XYZ university"
-    duration: "2012-2016"
-    degree: "Bachelor of Applied Sciences"
-    department: "Electrical and Computer Engineering"
+  - school_name: "Collège Rosemont  Montréal "
+    duration: "2022"
+    degree: "Certificate in Bigdata in finance"
+    department: "Technology"
     # optional
     awards_achievements: 
-      - "Scholarship"
-      - "Dean's List (2015, 2016): Ut enim ad minim veniam"
-      - "GPA: 3.8/4.0"
-  - school_name: "XYZ university"
-    duration: "2016-2018"
-    degree: "Master of Engineering"
-    department: "Electrical and Computer Engineering"
+  - school_name: "HEC-Montréal"
+    duration: "2021-present"
+    degree: "Certificate in Professional accounting "
+    department: "Program for CPA certification"
     awards_achievements: 
+  - school_name: "Université Paul Verlaine  France "
+    duration: "2004-2005"
+    degree: "Master in Business Administration "
+    department: "Entrepreneurship and development of SME"
+    awards_achievements:
+  - school_name: "University of Savoie -  France "
+    duration: "2003-2004"
+    degree: "Master in Business Administration "
+    department: "Information Technology"
+    awards_achievements:
+  - school_name: "UNIVERSIAPOLIS - ISIAM AGADIR"
+    duration: "1995-1999"
+    degree: "Bachelor in Business Administration"
+    department: "marketing &  Sales"
+    awards_achievements:
 
-#Optional section
+  #Optional section
 others:
     #category
-  - title: "Certificates"
+  - title: "Awards"
     #list of items
     bullets:
-      - "Udacity Machine Learning (2019)"
+      - "Customer Organization breakdown Analysis report and Telecom country report   - Huawei ME&NA (June 2006) "
   - title: "Awards"
     bullets:
-      - "Winner"
-  - title: "Activities/Hobbies"
+      - " Best Service Solution partner reviewer in North Africa region Huawei ME&NA (April 2010) "
+  - title: "Awards"
     bullets:
-      - "Basketball player"
-      - "Competitive gaming"
-      - "Volunteer, ABC Food bank: Ut enim ad minim veniam"
+      - " Best service account manager north Africa Huawei MENA (January 2013) "
+  - title: "Awards"
+    bullets:
+      - "Service sales amount growth Best service partner review Best event organizer and customer relationship development" 
+
